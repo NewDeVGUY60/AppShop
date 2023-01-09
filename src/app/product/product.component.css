@@ -1,0 +1,31 @@
+#product-box{
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin: 3rem 0 ;
+}
+img{
+  width: 100%;
+
+}
+
+#product{
+
+  flex: 3;
+  background-color: green;
+
+}
+
+#discrib{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  flex:1;
+  border-top: 2px solid black;
+
+}
